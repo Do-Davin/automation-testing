@@ -1,9 +1,9 @@
-D:\Year3\automated testing\lab03\src\main\java\com\ecommerce\api\models\User.java
-D:\Year3\automated testing\lab03\src\main\java\com\ecommerce\api\models\UserRequest.java
-D:\Year3\automated testing\lab03\src\main\java\com\ecommerce\api\utils\ApiConfig.java
-D:\Year3\automated testing\lab03\src\main\java\com\ecommerce\driver\DriverFactory.java
-D:\Year3\automated testing\lab03\src\main\java\com\ecommerce\driver\DriverManager.java
-D:\Year3\automated testing\lab03\src\main\java\com\ecommerce\Main.java
-D:\Year3\automated testing\lab03\src\main\java\com\ecommerce\pages\HomePage.java
-D:\Year3\automated testing\lab03\src\main\java\com\ecommerce\pages\LoginPage.java
-D:\Year3\automated testing\lab03\src\main\java\com\ecommerce\utils\ScreenshotUtil.java
+/Users/dodavin/ITC/Y3-S2/automation/LAB03/src/main/java/com/ecommerce/Main.java
+/Users/dodavin/ITC/Y3-S2/automation/LAB03/src/main/java/com/ecommerce/api/models/User.java
+/Users/dodavin/ITC/Y3-S2/automation/LAB03/src/main/java/com/ecommerce/api/models/UserRequest.java
+/Users/dodavin/ITC/Y3-S2/automation/LAB03/src/main/java/com/ecommerce/api/utils/ApiConfig.java
+/Users/dodavin/ITC/Y3-S2/automation/LAB03/src/main/java/com/ecommerce/driver/DriverFactory.java
+/Users/dodavin/ITC/Y3-S2/automation/LAB03/src/main/java/com/ecommerce/driver/DriverManager.java
+/Users/dodavin/ITC/Y3-S2/automation/LAB03/src/main/java/com/ecommerce/pages/HomePage.java
+/Users/dodavin/ITC/Y3-S2/automation/LAB03/src/main/java/com/ecommerce/pages/LoginPage.java
+/Users/dodavin/ITC/Y3-S2/automation/LAB03/src/main/java/com/ecommerce/utils/ScreenshotUtil.java

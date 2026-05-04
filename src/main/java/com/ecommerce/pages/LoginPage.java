@@ -2,9 +2,14 @@ package com.ecommerce.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class LoginPage {
     private final WebDriver driver;
+    private final WebDriverWait wait;
     private final String url = "https://the-internet.herokuapp.com/login";
 
     private final By username = By.id("username");
@@ -14,21 +19,23 @@ public class LoginPage {
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     public void open() {
         driver.get(url);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(username));
     }
 
     public void login(String user, String pass) {
-        driver.findElement(username).clear();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(username)).clear();
         driver.findElement(username).sendKeys(user);
-        driver.findElement(password).clear();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(password)).clear();
         driver.findElement(password).sendKeys(pass);
-        driver.findElement(loginButton).click();
+        wait.until(ExpectedConditions.elementToBeClickable(loginButton)).click();
     }
 
     public String getFlashText() {
-        return driver.findElement(flash).getText();
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(flash)).getText();
     }
 }
