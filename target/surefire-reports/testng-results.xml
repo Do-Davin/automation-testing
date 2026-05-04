@@ -2,109 +2,109 @@
 <testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-03T12:30:59 GMT+07:00" name="Lab04 Full Test Suite" finished-at="2026-05-03T12:32:28 GMT+07:00" duration-ms="88648">
+  <suite started-at="2026-05-04T22:15:21 ICT" name="Lab04 Full Test Suite" finished-at="2026-05-04T22:17:54 ICT" duration-ms="153025">
     <groups>
     </groups>
-    <test started-at="2026-05-03T12:30:59 GMT+07:00" name="UI — Login Tests" finished-at="2026-05-03T12:31:37 GMT+07:00" duration-ms="37732">
+    <test started-at="2026-05-04T22:15:21 ICT" name="UI — Login Tests" finished-at="2026-05-04T22:16:47 ICT" duration-ms="85137">
       <class name="com.lab04.tests.LoginTest">
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:30:59 GMT+07:00" name="setUp" finished-at="2026-05-03T12:31:16 GMT+07:00" duration-ms="16956" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:15:21 ICT" name="setUp" finished-at="2026-05-04T22:16:28 ICT" duration-ms="66848" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testEmptyCredentials()[pri:0, instance:com.lab04.tests.LoginTest@78aab498] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testEmptyCredentials()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testEmptyCredentials()[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:16 GMT+07:00" name="testEmptyCredentials" description="Verify login with empty credentials shows error" finished-at="2026-05-03T12:31:20 GMT+07:00" duration-ms="3307" status="PASS">
+        <test-method signature="testEmptyCredentials()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:28 ICT" name="testEmptyCredentials" description="Verify login with empty credentials shows error" finished-at="2026-05-04T22:16:34 ICT" duration-ms="5928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptyCredentials -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:20 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:31:20 GMT+07:00" duration-ms="572" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:34 ICT" name="tearDown" finished-at="2026-05-04T22:16:34 ICT" duration-ms="218" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testEmptyCredentials status=SUCCESS method=LoginTest.testEmptyCredentials()[pri:0, instance:com.lab04.tests.LoginTest@78aab498] output={null}]]]>
+                <![CDATA[[TestResult name=testEmptyCredentials status=SUCCESS method=LoginTest.testEmptyCredentials()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:20 GMT+07:00" name="setUp" finished-at="2026-05-03T12:31:22 GMT+07:00" duration-ms="1891" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:34 ICT" name="setUp" finished-at="2026-05-04T22:16:35 ICT" duration-ms="508" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testInvalidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78aab498] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testInvalidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:22 GMT+07:00" name="testInvalidLogin" description="Verify login fails with invalid credentials" finished-at="2026-05-03T12:31:25 GMT+07:00" duration-ms="3335" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:35 ICT" name="testInvalidLogin" description="Verify login fails with invalid credentials" finished-at="2026-05-04T22:16:38 ICT" duration-ms="3055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:25 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:31:26 GMT+07:00" duration-ms="549" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:38 ICT" name="tearDown" finished-at="2026-05-04T22:16:38 ICT" duration-ms="152" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78aab498] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:26 GMT+07:00" name="setUp" finished-at="2026-05-03T12:31:28 GMT+07:00" duration-ms="1618" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:38 ICT" name="setUp" finished-at="2026-05-04T22:16:39 ICT" duration-ms="498" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testLockedOutUser()[pri:0, instance:com.lab04.tests.LoginTest@78aab498] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testLockedOutUser()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLockedOutUser()[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:28 GMT+07:00" name="testLockedOutUser" description="Verify locked out user cannot login" finished-at="2026-05-03T12:31:31 GMT+07:00" duration-ms="3323" status="PASS">
+        <test-method signature="testLockedOutUser()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:39 ICT" name="testLockedOutUser" description="Verify locked out user cannot login" finished-at="2026-05-04T22:16:42 ICT" duration-ms="3809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLockedOutUser -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:31 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:31:31 GMT+07:00" duration-ms="585" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:42 ICT" name="tearDown" finished-at="2026-05-04T22:16:43 ICT" duration-ms="168" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLockedOutUser status=SUCCESS method=LoginTest.testLockedOutUser()[pri:0, instance:com.lab04.tests.LoginTest@78aab498] output={null}]]]>
+                <![CDATA[[TestResult name=testLockedOutUser status=SUCCESS method=LoginTest.testLockedOutUser()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:31 GMT+07:00" name="setUp" finished-at="2026-05-03T12:31:33 GMT+07:00" duration-ms="1580" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:43 ICT" name="setUp" finished-at="2026-05-04T22:16:43 ICT" duration-ms="538" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testValidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78aab498] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testValidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:33 GMT+07:00" name="testValidLogin" description="Verify successful login with valid credentials" finished-at="2026-05-03T12:31:36 GMT+07:00" duration-ms="3249" status="PASS">
+        <test-method signature="testValidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:43 ICT" name="testValidLogin" description="Verify successful login with valid credentials" finished-at="2026-05-04T22:16:46 ICT" duration-ms="2956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78aab498]" started-at="2026-05-03T12:31:36 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:31:37 GMT+07:00" duration-ms="710" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.LoginTest@78b66d36]" started-at="2026-05-04T22:16:46 ICT" name="tearDown" finished-at="2026-05-04T22:16:47 ICT" duration-ms="449" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78aab498] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:com.lab04.tests.LoginTest@78b66d36] output={null}]]]>
               </value>
             </param>
           </params>
@@ -113,182 +113,182 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.lab04.tests.LoginTest -->
     </test> <!-- UI — Login Tests -->
-    <test started-at="2026-05-03T12:31:37 GMT+07:00" name="UI — Shopping Tests" finished-at="2026-05-03T12:32:15 GMT+07:00" duration-ms="38148">
+    <test started-at="2026-05-04T22:16:52 ICT" name="UI — Shopping Tests" finished-at="2026-05-04T22:17:42 ICT" duration-ms="50245">
       <class name="com.lab04.tests.ShoppingTest">
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:37 GMT+07:00" name="setUp" finished-at="2026-05-03T12:31:39 GMT+07:00" duration-ms="1897" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:16:52 ICT" name="setUp" finished-at="2026-05-04T22:16:52 ICT" duration-ms="534" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testAddProductToCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testAddProductToCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:39 GMT+07:00" name="loginBeforeTest" finished-at="2026-05-03T12:31:42 GMT+07:00" duration-ms="3536" status="PASS">
+        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:16:52 ICT" name="loginBeforeTest" finished-at="2026-05-04T22:16:59 ICT" duration-ms="6562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeTest -->
-        <test-method signature="testAddProductToCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:42 GMT+07:00" name="testAddProductToCart" description="Verify adding a product to cart increments cart badge" finished-at="2026-05-03T12:31:43 GMT+07:00" duration-ms="248" status="PASS">
+        <test-method signature="testAddProductToCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:16:59 ICT" name="testAddProductToCart" description="Verify adding a product to cart increments cart badge" finished-at="2026-05-04T22:16:59 ICT" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProductToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:43 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:31:44 GMT+07:00" duration-ms="1264" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:16:59 ICT" name="tearDown" finished-at="2026-05-04T22:16:59 ICT" duration-ms="180" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=ShoppingTest.testAddProductToCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=ShoppingTest.testAddProductToCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:44 GMT+07:00" name="setUp" finished-at="2026-05-03T12:31:46 GMT+07:00" duration-ms="2109" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:16:59 ICT" name="setUp" finished-at="2026-05-04T22:16:59 ICT" duration-ms="485" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testCartContainsProduct()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testCartContainsProduct()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:46 GMT+07:00" name="loginBeforeTest" finished-at="2026-05-03T12:31:50 GMT+07:00" duration-ms="3403" status="PASS">
+        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:16:59 ICT" name="loginBeforeTest" finished-at="2026-05-04T22:17:08 ICT" duration-ms="8915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeTest -->
-        <test-method signature="testCartContainsProduct()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:50 GMT+07:00" name="testCartContainsProduct" description="Verify cart page shows the added product with correct name and price" finished-at="2026-05-03T12:31:50 GMT+07:00" duration-ms="363" status="PASS">
+        <test-method signature="testCartContainsProduct()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:08 ICT" name="testCartContainsProduct" description="Verify cart page shows the added product with correct name and price" finished-at="2026-05-04T22:17:09 ICT" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCartContainsProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:50 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:31:51 GMT+07:00" duration-ms="741" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:09 ICT" name="tearDown" finished-at="2026-05-04T22:17:09 ICT" duration-ms="126" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCartContainsProduct status=SUCCESS method=ShoppingTest.testCartContainsProduct()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name=testCartContainsProduct status=SUCCESS method=ShoppingTest.testCartContainsProduct()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:51 GMT+07:00" name="setUp" finished-at="2026-05-03T12:31:52 GMT+07:00" duration-ms="1684" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:09 ICT" name="setUp" finished-at="2026-05-04T22:17:09 ICT" duration-ms="478" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testCompleteCheckout()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testCompleteCheckout()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:52 GMT+07:00" name="loginBeforeTest" finished-at="2026-05-03T12:31:56 GMT+07:00" duration-ms="3759" status="PASS">
+        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:09 ICT" name="loginBeforeTest" finished-at="2026-05-04T22:17:13 ICT" duration-ms="3665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeTest -->
-        <test-method signature="testCompleteCheckout()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:56 GMT+07:00" name="testCompleteCheckout" description="Verify complete checkout flow from cart to order confirmation" finished-at="2026-05-03T12:31:57 GMT+07:00" duration-ms="1350" status="PASS">
+        <test-method signature="testCompleteCheckout()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:13 ICT" name="testCompleteCheckout" description="Verify complete checkout flow from cart to order confirmation" finished-at="2026-05-04T22:17:14 ICT" duration-ms="961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompleteCheckout -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:57 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:31:59 GMT+07:00" duration-ms="1091" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:14 ICT" name="tearDown" finished-at="2026-05-04T22:17:14 ICT" duration-ms="163" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCompleteCheckout status=SUCCESS method=ShoppingTest.testCompleteCheckout()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name=testCompleteCheckout status=SUCCESS method=ShoppingTest.testCompleteCheckout()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:31:59 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:00 GMT+07:00" duration-ms="1666" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:14 ICT" name="setUp" finished-at="2026-05-04T22:17:15 ICT" duration-ms="474" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testProductsPageDisplayed()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testProductsPageDisplayed()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:00 GMT+07:00" name="loginBeforeTest" finished-at="2026-05-03T12:32:04 GMT+07:00" duration-ms="3342" status="PASS">
+        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:15 ICT" name="loginBeforeTest" finished-at="2026-05-04T22:17:23 ICT" duration-ms="8167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeTest -->
-        <test-method signature="testProductsPageDisplayed()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:04 GMT+07:00" name="testProductsPageDisplayed" description="Verify product listing page displays products" finished-at="2026-05-03T12:32:04 GMT+07:00" duration-ms="19" status="PASS">
+        <test-method signature="testProductsPageDisplayed()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:23 ICT" name="testProductsPageDisplayed" description="Verify product listing page displays products" finished-at="2026-05-04T22:17:23 ICT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProductsPageDisplayed -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:04 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:04 GMT+07:00" duration-ms="534" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:23 ICT" name="tearDown" finished-at="2026-05-04T22:17:23 ICT" duration-ms="207" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testProductsPageDisplayed status=SUCCESS method=ShoppingTest.testProductsPageDisplayed()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name=testProductsPageDisplayed status=SUCCESS method=ShoppingTest.testProductsPageDisplayed()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:04 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:06 GMT+07:00" duration-ms="1548" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:23 ICT" name="setUp" finished-at="2026-05-04T22:17:23 ICT" duration-ms="553" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testRemoveItemFromCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testRemoveItemFromCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:06 GMT+07:00" name="loginBeforeTest" finished-at="2026-05-03T12:32:09 GMT+07:00" duration-ms="3286" status="PASS">
+        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:23 ICT" name="loginBeforeTest" finished-at="2026-05-04T22:17:33 ICT" duration-ms="10048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeTest -->
-        <test-method signature="testRemoveItemFromCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:09 GMT+07:00" name="testRemoveItemFromCart" description="Verify removing an item from the cart empties it" finished-at="2026-05-03T12:32:09 GMT+07:00" duration-ms="444" status="PASS">
+        <test-method signature="testRemoveItemFromCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:33 ICT" name="testRemoveItemFromCart" description="Verify removing an item from the cart empties it" finished-at="2026-05-04T22:17:34 ICT" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveItemFromCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:09 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:10 GMT+07:00" duration-ms="417" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:34 ICT" name="tearDown" finished-at="2026-05-04T22:17:34 ICT" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testRemoveItemFromCart status=SUCCESS method=ShoppingTest.testRemoveItemFromCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name=testRemoveItemFromCart status=SUCCESS method=ShoppingTest.testRemoveItemFromCart()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:10 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:11 GMT+07:00" duration-ms="1540" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:34 ICT" name="setUp" finished-at="2026-05-04T22:17:35 ICT" duration-ms="534" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testSortByPriceLowToHigh()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=ShoppingTest.testSortByPriceLowToHigh()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:11 GMT+07:00" name="loginBeforeTest" finished-at="2026-05-03T12:32:15 GMT+07:00" duration-ms="3259" status="PASS">
+        <test-method is-config="true" signature="loginBeforeTest()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:35 ICT" name="loginBeforeTest" finished-at="2026-05-04T22:17:42 ICT" duration-ms="7008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeTest -->
-        <test-method signature="testSortByPriceLowToHigh()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:15 GMT+07:00" name="testSortByPriceLowToHigh" description="Verify product sorting by price low to high" finished-at="2026-05-03T12:32:15 GMT+07:00" duration-ms="127" status="PASS">
+        <test-method signature="testSortByPriceLowToHigh()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:42 ICT" name="testSortByPriceLowToHigh" description="Verify product sorting by price low to high" finished-at="2026-05-04T22:17:42 ICT" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortByPriceLowToHigh -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:15 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:15 GMT+07:00" duration-ms="503" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:42 ICT" name="tearDown" finished-at="2026-05-04T22:17:42 ICT" duration-ms="176" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSortByPriceLowToHigh status=SUCCESS method=ShoppingTest.testSortByPriceLowToHigh()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930] output={null}]]]>
+                <![CDATA[[TestResult name=testSortByPriceLowToHigh status=SUCCESS method=ShoppingTest.testSortByPriceLowToHigh()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572] output={null}]]]>
               </value>
             </param>
           </params>
@@ -297,132 +297,132 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.lab04.tests.ShoppingTest -->
     </test> <!-- UI — Shopping Tests -->
-    <test started-at="2026-05-03T12:32:15 GMT+07:00" name="API — User Endpoint Tests" finished-at="2026-05-03T12:32:23 GMT+07:00" duration-ms="7846">
+    <test started-at="2026-05-04T22:17:47 ICT" name="API — User Endpoint Tests" finished-at="2026-05-04T22:17:51 ICT" duration-ms="4096">
       <class name="com.lab04.api.tests.UserApiTest">
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:15 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:16 GMT+07:00" duration-ms="1111" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:47 ICT" name="setUp" finished-at="2026-05-04T22:17:47 ICT" duration-ms="157" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetAllUsers()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetAllUsers()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetAllUsers()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:16 GMT+07:00" name="testGetAllUsers" description="GET /users — returns a non-empty list and validates JSON schema" finished-at="2026-05-03T12:32:20 GMT+07:00" duration-ms="3591" status="PASS">
+        <test-method signature="testGetAllUsers()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:47 ICT" name="testGetAllUsers" description="GET /users — returns a non-empty list and validates JSON schema" finished-at="2026-05-04T22:17:48 ICT" duration-ms="565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllUsers -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:20 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:20 GMT+07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:48 ICT" name="tearDown" finished-at="2026-05-04T22:17:48 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGetAllUsers status=SUCCESS method=UserApiTest.testGetAllUsers()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
+                <![CDATA[[TestResult name=testGetAllUsers status=SUCCESS method=UserApiTest.testGetAllUsers()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:20 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:20 GMT+07:00" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetNonExistentUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testGetNonExistentUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:20 GMT+07:00" name="testGetNonExistentUser" description="GET /users/{id} — non-existent user returns HTTP 404" finished-at="2026-05-03T12:32:20 GMT+07:00" duration-ms="322" status="PASS">
+        <test-method signature="testGetNonExistentUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:48 ICT" name="testGetNonExistentUser" description="GET /users/{id} — non-existent user returns HTTP 404" finished-at="2026-05-04T22:17:48 ICT" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetNonExistentUser -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:20 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:20 GMT+07:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:48 ICT" name="setUp" finished-at="2026-05-04T22:17:48 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGetNonExistentUser status=SUCCESS method=UserApiTest.testGetNonExistentUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:20 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:20 GMT+07:00" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetPostsByUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetNonExistentUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetPostsByUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:20 GMT+07:00" name="testGetPostsByUser" description="GET /users/{id}/posts — returns posts belonging to the given user" finished-at="2026-05-03T12:32:21 GMT+07:00" duration-ms="1112" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:48 ICT" name="tearDown" finished-at="2026-05-04T22:17:48 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetNonExistentUser status=SUCCESS method=UserApiTest.testGetNonExistentUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:48 ICT" name="setUp" finished-at="2026-05-04T22:17:48 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetPostsByUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetPostsByUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:48 ICT" name="testGetPostsByUser" description="GET /users/{id}/posts — returns posts belonging to the given user" finished-at="2026-05-04T22:17:49 ICT" duration-ms="1018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPostsByUser -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:21 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:21 GMT+07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:49 ICT" name="tearDown" finished-at="2026-05-04T22:17:49 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGetPostsByUser status=SUCCESS method=UserApiTest.testGetPostsByUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
+                <![CDATA[[TestResult name=testGetPostsByUser status=SUCCESS method=UserApiTest.testGetPostsByUser()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:21 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:21 GMT+07:00" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:49 ICT" name="setUp" finished-at="2026-05-04T22:17:49 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetUserById()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetUserById()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetUserById()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:21 GMT+07:00" name="testGetUserById" description="GET /users/{id} — returns a single user with correct fields and schema" finished-at="2026-05-03T12:32:22 GMT+07:00" duration-ms="444" status="PASS">
+        <test-method signature="testGetUserById()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:49 ICT" name="testGetUserById" description="GET /users/{id} — returns a single user with correct fields and schema" finished-at="2026-05-04T22:17:49 ICT" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserById -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:22 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:22 GMT+07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:49 ICT" name="tearDown" finished-at="2026-05-04T22:17:49 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGetUserById status=SUCCESS method=UserApiTest.testGetUserById()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
+                <![CDATA[[TestResult name=testGetUserById status=SUCCESS method=UserApiTest.testGetUserById()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:22 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:22 GMT+07:00" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:49 ICT" name="setUp" finished-at="2026-05-04T22:17:49 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetUserByUsername()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserApiTest.testGetUserByUsername()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetUserByUsername()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:22 GMT+07:00" name="testGetUserByUsername" description="GET /users — filter by username query param returns matching user" finished-at="2026-05-03T12:32:23 GMT+07:00" duration-ms="1234" status="PASS">
+        <test-method signature="testGetUserByUsername()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:49 ICT" name="testGetUserByUsername" description="GET /users — filter by username query param returns matching user" finished-at="2026-05-04T22:17:51 ICT" duration-ms="1566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserByUsername -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542]" started-at="2026-05-03T12:32:23 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:23 GMT+07:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf]" started-at="2026-05-04T22:17:51 ICT" name="tearDown" finished-at="2026-05-04T22:17:51 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGetUserByUsername status=SUCCESS method=UserApiTest.testGetUserByUsername()[pri:0, instance:com.lab04.api.tests.UserApiTest@6a400542] output={null}]]]>
+                <![CDATA[[TestResult name=testGetUserByUsername status=SUCCESS method=UserApiTest.testGetUserByUsername()[pri:0, instance:com.lab04.api.tests.UserApiTest@72057ecf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -431,231 +431,231 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.lab04.api.tests.UserApiTest -->
     </test> <!-- API — User Endpoint Tests -->
-    <test started-at="2026-05-03T12:32:23 GMT+07:00" name="API — Post CRUD Tests" finished-at="2026-05-03T12:32:28 GMT+07:00" duration-ms="4811">
+    <test started-at="2026-05-04T22:17:51 ICT" name="API — Post CRUD Tests" finished-at="2026-05-04T22:17:54 ICT" duration-ms="3504">
       <class name="com.lab04.tests.ShoppingTest">
-        <test-method is-config="true" signature="initReport()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:30:59 GMT+07:00" name="initReport" finished-at="2026-05-03T12:30:59 GMT+07:00" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:15:21 ICT" name="initReport" finished-at="2026-05-04T22:15:21 ICT" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.lab04.tests.ShoppingTest@2473d930]" started-at="2026-05-03T12:32:28 GMT+07:00" name="tearDownReport" finished-at="2026-05-03T12:32:28 GMT+07:00" duration-ms="465" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.lab04.tests.ShoppingTest@2145b572]" started-at="2026-05-04T22:17:59 ICT" name="tearDownReport" finished-at="2026-05-04T22:18:00 ICT" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
       </class> <!-- com.lab04.tests.ShoppingTest -->
       <class name="com.lab04.api.tests.PostApiTest">
-        <test-method is-config="true" signature="initReport()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:30:59 GMT+07:00" name="initReport" finished-at="2026-05-03T12:30:59 GMT+07:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:15:21 ICT" name="initReport" finished-at="2026-05-04T22:15:21 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initReport -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:23 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:23 GMT+07:00" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:51 ICT" name="setUp" finished-at="2026-05-04T22:17:51 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testCreatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testCreatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:23 GMT+07:00" name="testCreatePost" description="POST /posts — create new post returns 201 with echoed body" finished-at="2026-05-03T12:32:24 GMT+07:00" duration-ms="1186" status="PASS">
+        <test-method signature="testCreatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:51 ICT" name="testCreatePost" description="POST /posts — create new post returns 201 with echoed body" finished-at="2026-05-04T22:17:51 ICT" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePost -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:24 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:24 GMT+07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:51 ICT" name="setUp" finished-at="2026-05-04T22:17:51 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCreatePost status=SUCCESS method=PostApiTest.testCreatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:24 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:24 GMT+07:00" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testDeletePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testDeletePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDeletePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:24 GMT+07:00" name="testDeletePost" description="DELETE /posts/{id} — returns 200 and empty body" finished-at="2026-05-03T12:32:25 GMT+07:00" duration-ms="509" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:51 ICT" name="tearDown" finished-at="2026-05-04T22:17:51 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePost status=SUCCESS method=PostApiTest.testCreatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testDeletePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:51 ICT" name="testDeletePost" description="DELETE /posts/{id} — returns 200 and empty body" finished-at="2026-05-04T22:17:52 ICT" duration-ms="847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeletePost -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:25 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:25 GMT+07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:52 ICT" name="tearDown" finished-at="2026-05-04T22:17:52 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testDeletePost status=SUCCESS method=PostApiTest.testDeletePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name=testDeletePost status=SUCCESS method=PostApiTest.testDeletePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:25 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:25 GMT+07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:52 ICT" name="setUp" finished-at="2026-05-04T22:17:52 ICT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testGetAllPosts()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testGetAllPosts()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetAllPosts()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:25 GMT+07:00" name="testGetAllPosts" description="GET /posts — returns 100 posts and validates list schema" finished-at="2026-05-03T12:32:25 GMT+07:00" duration-ms="537" status="PASS">
+        <test-method signature="testGetAllPosts()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:52 ICT" name="testGetAllPosts" description="GET /posts — returns 100 posts and validates list schema" finished-at="2026-05-04T22:17:52 ICT" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllPosts -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:25 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:25 GMT+07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:52 ICT" name="setUp" finished-at="2026-05-04T22:17:52 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGetAllPosts status=SUCCESS method=PostApiTest.testGetAllPosts()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:25 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:25 GMT+07:00" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testGetPostById()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testGetPostById()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetPostById()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:25 GMT+07:00" name="testGetPostById" description="GET /posts/{id} — returns a single post with correct schema" finished-at="2026-05-03T12:32:26 GMT+07:00" duration-ms="349" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:52 ICT" name="tearDown" finished-at="2026-05-04T22:17:52 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetAllPosts status=SUCCESS method=PostApiTest.testGetAllPosts()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testGetPostById()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:52 ICT" name="testGetPostById" description="GET /posts/{id} — returns a single post with correct schema" finished-at="2026-05-04T22:17:53 ICT" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPostById -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:26 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:26 GMT+07:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="tearDown" finished-at="2026-05-04T22:17:53 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGetPostById status=SUCCESS method=PostApiTest.testGetPostById()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name=testGetPostById status=SUCCESS method=PostApiTest.testGetPostById()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:26 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:26 GMT+07:00" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="setUp" finished-at="2026-05-04T22:17:53 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testGetPostsByUserId()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testGetPostsByUserId()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetPostsByUserId()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:26 GMT+07:00" name="testGetPostsByUserId" description="GET /posts — filter by userId returns only that user&#039;s posts" finished-at="2026-05-03T12:32:26 GMT+07:00" duration-ms="304" status="PASS">
+        <test-method signature="testGetPostsByUserId()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="testGetPostsByUserId" description="GET /posts — filter by userId returns only that user&#039;s posts" finished-at="2026-05-04T22:17:53 ICT" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPostsByUserId -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:26 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:26 GMT+07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="setUp" finished-at="2026-05-04T22:17:53 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGetPostsByUserId status=SUCCESS method=PostApiTest.testGetPostsByUserId()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:26 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:26 GMT+07:00" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testPatchPost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testPatchPost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPatchPost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:26 GMT+07:00" name="testPatchPost" description="PATCH /posts/{id} — partial update changes only the title" finished-at="2026-05-03T12:32:27 GMT+07:00" duration-ms="560" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="tearDown" finished-at="2026-05-04T22:17:53 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPostsByUserId status=SUCCESS method=PostApiTest.testGetPostsByUserId()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testPatchPost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="testPatchPost" description="PATCH /posts/{id} — partial update changes only the title" finished-at="2026-05-04T22:17:53 ICT" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPatchPost -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:27 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:27 GMT+07:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="tearDown" finished-at="2026-05-04T22:17:53 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testPatchPost status=SUCCESS method=PostApiTest.testPatchPost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name=testPatchPost status=SUCCESS method=PostApiTest.testPatchPost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:27 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:27 GMT+07:00" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="setUp" finished-at="2026-05-04T22:17:53 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testResponseHeaders()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testResponseHeaders()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testResponseHeaders()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:27 GMT+07:00" name="testResponseHeaders" description="GET /posts/{id} — response Content-Type header is application/json" finished-at="2026-05-03T12:32:27 GMT+07:00" duration-ms="303" status="PASS">
+        <test-method signature="testResponseHeaders()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="testResponseHeaders" description="GET /posts/{id} — response Content-Type header is application/json" finished-at="2026-05-04T22:17:53 ICT" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseHeaders -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:27 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:27 GMT+07:00" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="tearDown" finished-at="2026-05-04T22:17:53 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testResponseHeaders status=SUCCESS method=PostApiTest.testResponseHeaders()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name=testResponseHeaders status=SUCCESS method=PostApiTest.testResponseHeaders()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:27 GMT+07:00" name="setUp" finished-at="2026-05-03T12:32:27 GMT+07:00" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="setUp" finished-at="2026-05-04T22:17:53 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testUpdatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostApiTest.testUpdatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUpdatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:27 GMT+07:00" name="testUpdatePost" description="PUT /posts/{id} — full update returns 200 with updated fields" finished-at="2026-05-03T12:32:28 GMT+07:00" duration-ms="1014" status="PASS">
+        <test-method signature="testUpdatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:53 ICT" name="testUpdatePost" description="PUT /posts/{id} — full update returns 200 with updated fields" finished-at="2026-05-04T22:17:54 ICT" duration-ms="989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdatePost -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:28 GMT+07:00" name="tearDown" finished-at="2026-05-03T12:32:28 GMT+07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:17:54 ICT" name="tearDown" finished-at="2026-05-04T22:17:54 ICT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testUpdatePost status=SUCCESS method=PostApiTest.testUpdatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1] output={null}]]]>
+                <![CDATA[[TestResult name=testUpdatePost status=SUCCESS method=PostApiTest.testUpdatePost()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.lab04.api.tests.PostApiTest@635eaaf1]" started-at="2026-05-03T12:32:28 GMT+07:00" name="tearDownReport" finished-at="2026-05-03T12:32:28 GMT+07:00" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.lab04.api.tests.PostApiTest@59fd97a8]" started-at="2026-05-04T22:18:00 ICT" name="tearDownReport" finished-at="2026-05-04T22:18:00 ICT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->

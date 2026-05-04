@@ -1,79 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="90.283" tests="23" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="158.351" tests="23" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="24"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Year3\automated testing\lab04\target\test-classes;D:\Year3\automated testing\lab04\target\classes;C:\Users\Zenbook\.m2\repository\com\microsoft\playwright\playwright\1.44.0\playwright-1.44.0.jar;C:\Users\Zenbook\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Zenbook\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Zenbook\.m2\repository\com\microsoft\playwright\driver\1.44.0\driver-1.44.0.jar;C:\Users\Zenbook\.m2\repository\com\microsoft\playwright\driver-bundle\1.44.0\driver-bundle-1.44.0.jar;C:\Users\Zenbook\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Zenbook\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Zenbook\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Zenbook\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Zenbook\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Zenbook\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Zenbook\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Zenbook\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Zenbook\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Zenbook\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Zenbook\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Zenbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Zenbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Zenbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Zenbook\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Zenbook\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Zenbook\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Zenbook\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Zenbook\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Zenbook\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Zenbook\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Zenbook\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Zenbook\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Zenbook\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Zenbook\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Zenbook\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Zenbook\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Zenbook\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Zenbook\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Zenbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Zenbook\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Zenbook\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\Zenbook\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\Zenbook\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\Zenbook\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\Zenbook\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Zenbook\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dodavin/ITC/Y3-S2/automation/LAB04/target/test-classes:/Users/dodavin/ITC/Y3-S2/automation/LAB04/target/classes:/Users/dodavin/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/dodavin/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/dodavin/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dodavin/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/dodavin/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/dodavin/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/dodavin/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dodavin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/dodavin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/dodavin/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/dodavin/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/dodavin/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/dodavin/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/dodavin/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/dodavin/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/dodavin/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/dodavin/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/dodavin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dodavin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dodavin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dodavin/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dodavin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dodavin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dodavin/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/dodavin/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/dodavin/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/dodavin/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/dodavin/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/dodavin/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/dodavin/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/dodavin/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/dodavin/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/dodavin/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/dodavin/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dodavin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/dodavin/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/dodavin/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dodavin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dodavin/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/dodavin/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/dodavin/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/dodavin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar:/Users/dodavin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar:/Users/dodavin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar:/Users/dodavin/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/dodavin/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dodavin/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="user.timezone" value="Asia/Bangkok"/>
-    <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="24"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Phnom_Penh"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\Zenbook\AppData\Local\Temp\surefire12889938394789553850\surefirebooter-20260503123058135_3.jar C:\Users\Zenbook\AppData\Local\Temp\surefire12889938394789553850 2026-05-03T12-30-57_884-jvmRun1 surefire-20260503123058135_1tmp surefire_0-20260503123058135_2tmp"/>
+    <property name="user.country" value="KH"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dodavin/ITC/Y3-S2/automation/LAB04/target/surefire/surefirebooter-20260504221521661_3.jar /Users/dodavin/ITC/Y3-S2/automation/LAB04/target/surefire 2026-05-04T22-15-21_635-jvmRun1 surefire-20260504221521661_1tmp surefire_0-20260504221521661_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\Year3\automated testing\lab04\target\test-classes;D:\Year3\automated testing\lab04\target\classes;C:\Users\Zenbook\.m2\repository\com\microsoft\playwright\playwright\1.44.0\playwright-1.44.0.jar;C:\Users\Zenbook\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Zenbook\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Zenbook\.m2\repository\com\microsoft\playwright\driver\1.44.0\driver-1.44.0.jar;C:\Users\Zenbook\.m2\repository\com\microsoft\playwright\driver-bundle\1.44.0\driver-bundle-1.44.0.jar;C:\Users\Zenbook\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Zenbook\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Zenbook\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Zenbook\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Zenbook\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Zenbook\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Zenbook\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Zenbook\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Zenbook\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Zenbook\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Zenbook\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Zenbook\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Zenbook\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Zenbook\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Zenbook\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Zenbook\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Zenbook\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Zenbook\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Zenbook\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Zenbook\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Zenbook\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Zenbook\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Zenbook\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Zenbook\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Zenbook\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Zenbook\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Zenbook\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Zenbook\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Zenbook\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Zenbook\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Zenbook\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Zenbook\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Zenbook\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Zenbook\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\Zenbook\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\Zenbook\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\Zenbook\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\Zenbook\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Zenbook\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;"/>
+    <property name="surefire.test.class.path" value="/Users/dodavin/ITC/Y3-S2/automation/LAB04/target/test-classes:/Users/dodavin/ITC/Y3-S2/automation/LAB04/target/classes:/Users/dodavin/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/dodavin/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/dodavin/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dodavin/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/dodavin/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/dodavin/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/dodavin/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dodavin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/dodavin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/dodavin/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/dodavin/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/dodavin/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/dodavin/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/dodavin/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/dodavin/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/dodavin/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/dodavin/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/dodavin/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dodavin/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dodavin/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dodavin/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dodavin/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dodavin/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dodavin/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/dodavin/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/dodavin/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/dodavin/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/dodavin/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/dodavin/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/dodavin/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/dodavin/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/dodavin/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/dodavin/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/dodavin/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/dodavin/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dodavin/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/dodavin/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/dodavin/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dodavin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dodavin/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/dodavin/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/dodavin/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/dodavin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar:/Users/dodavin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar:/Users/dodavin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar:/Users/dodavin/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/dodavin/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/dodavin/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\Zenbook"/>
+    <property name="user.home" value="/Users/dodavin"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2025-07-15"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
-    <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\Year3\automated testing\lab04"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dodavin/ITC/Y3-S2/automation/LAB04"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Zenbook\AppData\Local\Temp\surefire12889938394789553850\surefirebooter-20260503123058135_3.jar"/>
-    <property name="user.script" value=""/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/dodavin/ITC/Y3-S2/automation/LAB04/target/surefire/surefirebooter-20260504221521661_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="24.0.2+12-54"/>
-    <property name="user.name" value="Zenbook"/>
-    <property name="stdout.encoding" value="Cp1252"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.8+9-LTS"/>
+    <property name="user.name" value="dodavin"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\Zenbook\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\Zenbook\AppData\Local\Temp\"/>
-    <property name="java.version" value="24.0.2"/>
-    <property name="user.dir" value="D:\Year3\automated testing\lab04"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.8+9"/>
+    <property name="localRepository" value="/Users/dodavin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/41/vywl56zn4_50f4kx0fn0_j7c0000gn/T/"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="/Users/dodavin/ITC/Y3-S2/automation/LAB04"/>
+    <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Zenbook\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Zenbook\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\Zenbook\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.13.11-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\usbipd-win\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Zenbook\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Zenbook\AppData\Local\Programs\Python\Python313\;C:\Users\Zenbook\AppData\Local\Programs\Python\Launcher\;C:\Users\Zenbook\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Zenbook\AppData\Local\Programs\Python\Python312\;C:\Users\Zenbook\AppData\Local\Microsoft\WindowsApps;C:\ffmpeg\bin;C:\Users\Zenbook\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\Zenbook\AppData\Local\Android\Sdk;C:\Users\Zenbook\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Zenbook\AppData\Roaming\npm;D:\Library\maven\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;D:\gradles\gradle-9.2.1\bin;D:\stripe_1.35.0_windows_x86_64;D:\Flutter\flutter\bin;c:\Users\Zenbook\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dodavin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="Cp1252"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="24.0.2+12-54"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="68.0"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.8+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testEmptyCredentials" classname="com.lab04.tests.LoginTest" time="3.305">
+  <testcase name="testEmptyCredentials" classname="com.lab04.tests.LoginTest" time="5.927">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidLogin" classname="com.lab04.tests.LoginTest" time="3.334"/>
-  <testcase name="testLockedOutUser" classname="com.lab04.tests.LoginTest" time="3.323"/>
-  <testcase name="testValidLogin" classname="com.lab04.tests.LoginTest" time="3.248"/>
-  <testcase name="testAddProductToCart" classname="com.lab04.tests.ShoppingTest" time="0.249"/>
-  <testcase name="testCartContainsProduct" classname="com.lab04.tests.ShoppingTest" time="0.362"/>
-  <testcase name="testCompleteCheckout" classname="com.lab04.tests.ShoppingTest" time="1.349"/>
-  <testcase name="testProductsPageDisplayed" classname="com.lab04.tests.ShoppingTest" time="0.02"/>
-  <testcase name="testRemoveItemFromCart" classname="com.lab04.tests.ShoppingTest" time="0.445"/>
-  <testcase name="testSortByPriceLowToHigh" classname="com.lab04.tests.ShoppingTest" time="0.127"/>
-  <testcase name="testGetAllUsers" classname="com.lab04.api.tests.UserApiTest" time="3.591">
+  <testcase name="testInvalidLogin" classname="com.lab04.tests.LoginTest" time="3.056"/>
+  <testcase name="testLockedOutUser" classname="com.lab04.tests.LoginTest" time="3.809"/>
+  <testcase name="testValidLogin" classname="com.lab04.tests.LoginTest" time="2.956"/>
+  <testcase name="testAddProductToCart" classname="com.lab04.tests.ShoppingTest" time="0.125"/>
+  <testcase name="testCartContainsProduct" classname="com.lab04.tests.ShoppingTest" time="0.24"/>
+  <testcase name="testCompleteCheckout" classname="com.lab04.tests.ShoppingTest" time="0.96"/>
+  <testcase name="testProductsPageDisplayed" classname="com.lab04.tests.ShoppingTest" time="0.004"/>
+  <testcase name="testRemoveItemFromCart" classname="com.lab04.tests.ShoppingTest" time="0.36"/>
+  <testcase name="testSortByPriceLowToHigh" classname="com.lab04.tests.ShoppingTest" time="0.116"/>
+  <testcase name="testGetAllUsers" classname="com.lab04.api.tests.UserApiTest" time="0.565">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/users
 Proxy:			<none>
@@ -87,7 +88,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 03 May 2026 05:32:19 GMT
+Date: Mon, 04 May 2026 15:17:47 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 1847
 Connection: keep-alive
@@ -108,10 +109,10 @@ x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
 x-ratelimit-reset: 1777519565
-Age: 548
+Age: 6868
 Accept-Ranges: bytes
 cf-cache-status: HIT
-CF-RAY: 9f5ce26ecb543d8f-SIN
+CF-RAY: 9f68796e5e92fd13-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -348,7 +349,7 @@ alt-svc: h3=":443"; ma=86400
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetNonExistentUser" classname="com.lab04.api.tests.UserApiTest" time="0.321">
+  <testcase name="testGetNonExistentUser" classname="com.lab04.api.tests.UserApiTest" time="0.171">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/users/9999
 Proxy:			<none>
@@ -363,7 +364,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="testGetPostsByUser" classname="com.lab04.api.tests.UserApiTest" time="1.112">
+  <testcase name="testGetPostsByUser" classname="com.lab04.api.tests.UserApiTest" time="1.018">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/users/1/posts
 Proxy:			<none>
@@ -377,7 +378,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 03 May 2026 05:32:21 GMT
+Date: Mon, 04 May 2026 15:17:49 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -388,19 +389,18 @@ etag: W/"aa6-j2NSH739l9uq40OywFMn7Y0C/iY"
 expires: -1
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=n6k%2BL5PcUqGGbi7UM7D%2FBM5DmwFIe2pLpECOyivfPxs%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777696324"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=n6k%2BL5PcUqGGbi7UM7D%2FBM5DmwFIe2pLpECOyivfPxs%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777696324"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=7eau5DDQQ6TtdXWKlXjaB0AmO03XD5KJdTt%2BNWVtsNU%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777862561"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=7eau5DDQQ6TtdXWKlXjaB0AmO03XD5KJdTt%2BNWVtsNU%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777862561"
 Server: cloudflare
 vary: Origin, Accept-Encoding
 via: 2.0 heroku-router
 x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
-x-ratelimit-remaining: 999
-x-ratelimit-reset: 1777696326
-Age: 8107
-cf-cache-status: HIT
-CF-RAY: 9f5ce27b3da9fd41-SIN
+x-ratelimit-remaining: 997
+x-ratelimit-reset: 1777862598
+cf-cache-status: REVALIDATED
+CF-RAY: 9f6879718d1cce6e-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -467,7 +467,7 @@ alt-svc: h3=":443"; ma=86400
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetUserById" classname="com.lab04.api.tests.UserApiTest" time="0.446">
+  <testcase name="testGetUserById" classname="com.lab04.api.tests.UserApiTest" time="0.611">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/users/1
 Proxy:			<none>
@@ -481,7 +481,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 03 May 2026 05:32:22 GMT
+Date: Mon, 04 May 2026 15:17:49 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -491,20 +491,20 @@ etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
 expires: -1
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=CtqE1UIarJCk7g3fFvo7PmoQTEL9%2FHO5eg87VE7pYhQ%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777718407"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=CtqE1UIarJCk7g3fFvo7PmoQTEL9%2FHO5eg87VE7pYhQ%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777718407"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=l%2Bi53FH5r%2BVPkNI5yIhbcCRGBNYDqwXTML5gO0%2FRr%2F4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777862457"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=l%2Bi53FH5r%2BVPkNI5yIhbcCRGBNYDqwXTML5gO0%2FRr%2F4%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777862457"
 Server: cloudflare
 vary: Origin, Accept-Encoding
 via: 2.0 heroku-router
 x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
-x-ratelimit-remaining: 981
-x-ratelimit-reset: 1777718466
-Age: 10332
+x-ratelimit-remaining: 994
+x-ratelimit-reset: 1777862478
+Age: 16610
 cf-cache-status: HIT
 Content-Encoding: gzip
-CF-RAY: 9f5ce2824d33f8e4-SIN
+CF-RAY: 9f687978cc255833-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -532,7 +532,7 @@ alt-svc: h3=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetUserByUsername" classname="com.lab04.api.tests.UserApiTest" time="1.233">
+  <testcase name="testGetUserByUsername" classname="com.lab04.api.tests.UserApiTest" time="1.567">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/users?username=Bret
 Proxy:			<none>
@@ -546,7 +546,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 03 May 2026 05:32:24 GMT
+Date: Mon, 04 May 2026 15:17:51 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -566,9 +566,9 @@ x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
 x-ratelimit-reset: 1777786390
-cf-cache-status: MISS
+cf-cache-status: REVALIDATED
 Content-Encoding: gzip
-CF-RAY: 9f5ce285edd4f93e-SIN
+CF-RAY: 9f68797c9bcce10a-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -598,7 +598,7 @@ alt-svc: h3=":443"; ma=86400
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testCreatePost" classname="com.lab04.api.tests.PostApiTest" time="1.186">
+  <testcase name="testCreatePost" classname="com.lab04.api.tests.PostApiTest" time="0.454">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://jsonplaceholder.typicode.com/posts
 Proxy:			<none>
@@ -618,7 +618,7 @@ Body:
     "body": "This post was created by REST-assured."
 }
 HTTP/1.1 201 Created
-Date: Sun, 03 May 2026 05:32:25 GMT
+Date: Mon, 04 May 2026 15:17:51 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 116
 Connection: keep-alive
@@ -630,18 +630,18 @@ expires: -1
 location: https://jsonplaceholder.typicode.com/posts/101
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=uVKw9z8vuzwdkTa8kV1vpPO9Yq6aRIYlnnCub8LMtbc%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777786345"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=uVKw9z8vuzwdkTa8kV1vpPO9Yq6aRIYlnnCub8LMtbc%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777786345"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=3ZnvEMhYVua4hHOEfSyySLq7s8n0nuH6LwTbzDces%2B0%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777907871"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=3ZnvEMhYVua4hHOEfSyySLq7s8n0nuH6LwTbzDces%2B0%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777907871"
 Server: cloudflare
 vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 via: 2.0 heroku-router
 x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
-x-ratelimit-remaining: 998
-x-ratelimit-reset: 1777786390
+x-ratelimit-remaining: 997
+x-ratelimit-reset: 1777907899
 cf-cache-status: DYNAMIC
-CF-RAY: 9f5ce28dcc438207-SIN
+CF-RAY: 9f687985cf60ce5d-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -652,7 +652,7 @@ alt-svc: h3=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeletePost" classname="com.lab04.api.tests.PostApiTest" time="0.509">
+  <testcase name="testDeletePost" classname="com.lab04.api.tests.PostApiTest" time="0.848">
     <system-out><![CDATA[Request method:	DELETE
 Request URI:	https://jsonplaceholder.typicode.com/posts/1
 Proxy:			<none>
@@ -667,7 +667,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAllPosts" classname="com.lab04.api.tests.PostApiTest" time="0.537">
+  <testcase name="testGetAllPosts" classname="com.lab04.api.tests.PostApiTest" time="0.238">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts
 Proxy:			<none>
@@ -681,7 +681,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 03 May 2026 05:32:26 GMT
+Date: Mon, 04 May 2026 15:17:52 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -702,9 +702,9 @@ x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
 x-ratelimit-reset: 1777566965
-Age: 17775
+Age: 24074
 cf-cache-status: HIT
-CF-RAY: 9f5ce2977dae5f2c-SIN
+CF-RAY: 9f68798db8ecbd75-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1311,7 +1311,7 @@ alt-svc: h3=":443"; ma=86400
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetPostById" classname="com.lab04.api.tests.PostApiTest" time="0.35">
+  <testcase name="testGetPostById" classname="com.lab04.api.tests.PostApiTest" time="0.181">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts/1
 Proxy:			<none>
@@ -1325,7 +1325,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 03 May 2026 05:32:26 GMT
+Date: Mon, 04 May 2026 15:17:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1345,10 +1345,10 @@ x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 730
 x-ratelimit-reset: 1775729393
-Age: 18694
+Age: 25018
 cf-cache-status: HIT
 Content-Encoding: gzip
-CF-RAY: 9f5ce29acf1ddb51-SIN
+CF-RAY: 9f68798f3837898f-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -1359,7 +1359,7 @@ alt-svc: h3=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetPostsByUserId" classname="com.lab04.api.tests.PostApiTest" time="0.305">
+  <testcase name="testGetPostsByUserId" classname="com.lab04.api.tests.PostApiTest" time="0.19">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts?userId=1
 Proxy:			<none>
@@ -1373,7 +1373,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sun, 03 May 2026 05:32:27 GMT
+Date: Mon, 04 May 2026 15:17:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1394,9 +1394,9 @@ x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
 x-ratelimit-reset: 1776398701
-Age: 2452
+Age: 4685
 cf-cache-status: HIT
-CF-RAY: 9f5ce29d0fbc6594-SIN
+CF-RAY: 9f6879905d85ce26-SIN
 alt-svc: h3=":443"; ma=86400
 
 [
@@ -1463,7 +1463,7 @@ alt-svc: h3=":443"; ma=86400
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testPatchPost" classname="com.lab04.api.tests.PostApiTest" time="0.56">
+  <testcase name="testPatchPost" classname="com.lab04.api.tests.PostApiTest" time="0.414">
     <system-out><![CDATA[Request method:	PATCH
 Request URI:	https://jsonplaceholder.typicode.com/posts/1
 Proxy:			<none>
@@ -1480,7 +1480,7 @@ Body:
     "title": "Patched Title"
 }
 HTTP/1.1 200 OK
-Date: Sun, 03 May 2026 05:32:27 GMT
+Date: Mon, 04 May 2026 15:17:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1490,19 +1490,19 @@ etag: W/"e7-qDWeqmq70vVUfFN1bLDlMVUJQLI"
 expires: -1
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Kc7KTulA9NhCkTyFmeZ9ewWxjkpQVkB9ZrCv9NZ02l8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777786347"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=Kc7KTulA9NhCkTyFmeZ9ewWxjkpQVkB9ZrCv9NZ02l8%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777786347"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=6reOwwL8T4Sfbc%2FiUclv1I2vy8yVkjiT1cAYOWj%2BjPw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777907873"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=6reOwwL8T4Sfbc%2FiUclv1I2vy8yVkjiT1cAYOWj%2BjPw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777907873"
 Server: cloudflare
 vary: Origin, Accept-Encoding
 via: 2.0 heroku-router
 x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
-x-ratelimit-remaining: 996
-x-ratelimit-reset: 1777786390
+x-ratelimit-remaining: 995
+x-ratelimit-reset: 1777907899
 cf-cache-status: DYNAMIC
 Content-Encoding: gzip
-CF-RAY: 9f5ce29f08f752b7-SIN
+CF-RAY: 9f6879919cd087ae-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -1513,7 +1513,7 @@ alt-svc: h3=":443"; ma=86400
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testResponseHeaders" classname="com.lab04.api.tests.PostApiTest" time="0.304">
+  <testcase name="testResponseHeaders" classname="com.lab04.api.tests.PostApiTest" time="0.177">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://jsonplaceholder.typicode.com/posts/1
 Proxy:			<none>
@@ -1528,7 +1528,7 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdatePost" classname="com.lab04.api.tests.PostApiTest" time="1.013">
+  <testcase name="testUpdatePost" classname="com.lab04.api.tests.PostApiTest" time="0.989">
     <system-out><![CDATA[Request method:	PUT
 Request URI:	https://jsonplaceholder.typicode.com/posts/1
 Proxy:			<none>
@@ -1548,7 +1548,7 @@ Body:
     "body": "Updated body content."
 }
 HTTP/1.1 200 OK
-Date: Sun, 03 May 2026 05:32:28 GMT
+Date: Mon, 04 May 2026 15:17:54 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1558,19 +1558,19 @@ etag: W/"5b-iTo5B2uPH9lqmU9PI1CwK2xlJ2I"
 expires: -1
 nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 pragma: no-cache
-report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4GS1%2B5QopT7mmowr2rTpehq6CIG%2BgCCcp3ACQgRcFko%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777786348"}],"max_age":3600}
-reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=4GS1%2B5QopT7mmowr2rTpehq6CIG%2BgCCcp3ACQgRcFko%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777786348"
+report-to: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=BYazCdP06aMouRTkqJgsDh3h0HO6%2B4q2xx6oQyZVibU%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1777907874"}],"max_age":3600}
+reporting-endpoints: heroku-nel="https://nel.heroku.com/reports?s=BYazCdP06aMouRTkqJgsDh3h0HO6%2B4q2xx6oQyZVibU%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1777907874"
 Server: cloudflare
 vary: Origin, Accept-Encoding
 via: 2.0 heroku-router
 x-content-type-options: nosniff
 x-powered-by: Express
 x-ratelimit-limit: 1000
-x-ratelimit-remaining: 995
-x-ratelimit-reset: 1777786390
+x-ratelimit-remaining: 994
+x-ratelimit-reset: 1777907899
 cf-cache-status: DYNAMIC
 Content-Encoding: gzip
-CF-RAY: 9f5ce2a4ae9440e3-SIN
+CF-RAY: 9f6879955b9a3f8e-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
